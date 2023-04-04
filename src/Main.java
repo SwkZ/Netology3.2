@@ -3,9 +3,9 @@ public class Main {
         int starter = 100;
         int incoming = 1100;
         int fullBalance = starter + incoming;
-        int porog = 1000;
+        int threshold = 1000;
 
-        if (incoming > porog) {
+        if (incoming > threshold) {
             int incomingBonus = incoming / 100;
             System.out.println("Итоговый бонус к пополнению: " + incomingBonus);
             System.out.println("Ваш баланс: " + (fullBalance + incomingBonus));
